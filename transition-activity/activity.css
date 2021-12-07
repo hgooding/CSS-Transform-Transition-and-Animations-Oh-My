@@ -1,1 +1,12 @@
 
+  
+  button:hover{
+    animation-name: button;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+  }
+
+@keyframes button {
+    0% { background-color: cornflowerblue}
+    100% { color: ghostwhite}
+}
